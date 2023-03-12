@@ -11,9 +11,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate replace to="/google-account_copy" />} />
         <Route path="/google-account_copy" element={<Home />} />
-        <Route path="registration" element={<Registration />} />
-        <Route path="google-account" element={<Accounts />} />
-        <Route path="sign-in" element={<SignIn />} />
+        <Route path="/account/registration" element={<Registration />} />
+        <Route path="/account/google-account" element={<Accounts />} />
+        <Route path="/account/sign-in" element={<SignIn />} />
       </Routes>
     </BrowserRouter>
   );

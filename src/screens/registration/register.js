@@ -84,7 +84,7 @@ export const Registration = () => {
               variant="text">
                 <Link  
                   className='hover:text-[#174ea6] text-blue-600 font-[Roboto] text-[14px] capitalize font-[400]' 
-                  to="/sign-in"
+                  to="/account/sign-in"
                   >Sign in instead
                 </Link>
             </Button>

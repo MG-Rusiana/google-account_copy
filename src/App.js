@@ -9,8 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate replace to="/account" />} />
-        <Route path="/account" element={<Home />} />
+        <Route path="/" element={<Navigate replace to="/google-account_copy" />} />
+        <Route path="/google-account_copy" element={<Home />} />
         <Route path="registration" element={<Registration />} />
         <Route path="google-account" element={<Accounts />} />
         <Route path="sign-in" element={<SignIn />} />

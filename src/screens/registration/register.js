@@ -18,7 +18,7 @@ export const Registration = () => {
     }
   }
   return (
-    <div className='w-screen h-screen flex flex-col justify-center items-center'>
+    <div className='w-screen h-screen flex flex-col justify-center items-center gap-5'>
      
       <div className='flex flex-row w-[710px] h-[600px] border-[1px] rounded-md px-10 py-12'>
       
@@ -105,6 +105,17 @@ export const Registration = () => {
           <p className='px-5 text-center font-[Roboto] font-[300] text-[#202124] text-[16px]'>One account. All of Google working for you.</p>
         </div>
       </div>
+      <div className='w-[710px] h-[50px] flex flex-row'>
+          <div className='w-[50%] h-[100%]'>
+          <p className='text-[#3c4043] text-[12px] font-[Roboto]'>English</p>
+          </div>
+          <div className='flex flex-row justify-end gap-6 w-[50%] h-[100%]'>
+            <p className='text-[#3c4043] text-[12px] font-[Roboto]'>Help</p>
+            <p className='text-[#3c4043] text-[12px] font-[Roboto]'>Privacy</p>
+            <p className='text-[#3c4043] text-[12px] font-[Roboto]'>Terms</p>
+          </div>
+      </div>
+      
     </div>
   )
 }

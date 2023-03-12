@@ -84,7 +84,7 @@ export const Registration = () => {
               variant="text">
                 <Link  
                   className='hover:text-[#174ea6] text-blue-600 font-[Roboto] text-[14px] capitalize font-[400]' 
-                  to="/account/sign-in"
+                  to="/sign-in"
                   >Sign in instead
                 </Link>
             </Button>
@@ -115,7 +115,7 @@ export const Registration = () => {
             <p className='text-[#3c4043] text-[12px] font-[Roboto]'>Terms</p>
           </div>
       </div>
-      
+
     </div>
   )
 }

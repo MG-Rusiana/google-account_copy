@@ -31,7 +31,7 @@ export const Header = () => {
             <div className='h-[100%] flex items-center'><p className='text-[14px] text-[#5f6368]'>Privacy Tools</p></div>          
         </div>
         <div className='flex flex-row w-[50%] h-[100%] justify-end items-center gap-6 pr-5'>
-            <Button className='h-[70%] p-[25px]' variant="text"><Link  className='hover:text-[#174ea6] text-blue-600 font-[Google sans] text-[16px] capitalize font-[400]' to="/account/registration">Create an account</Link></Button>
+            <Button className='h-[70%] p-[25px]' variant="text"><Link  className='hover:text-[#174ea6] text-blue-600 font-[Google sans] text-[16px] capitalize font-[400]' to="/registration">Create an account</Link></Button>
             <Button className='h-[70%] w-[220px]' variant="contained"><Link className='text-[16px] capitalize font-[Google sans]' to="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Go to Google Account</Link></Button>
         </div>
     </div>

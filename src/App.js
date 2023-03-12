@@ -9,11 +9,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate replace to="/account/about" />} />
-        <Route path="/account/about" element={<Home />} />
-        <Route path="/account/registration" element={<Registration />} />
-        <Route path="/account/google-account" element={<Accounts />} />
-        <Route path="/account/sign-in" element={<SignIn />} />
+        <Route path="/" element={<Navigate replace to="/account" />} />
+        <Route path="/account" element={<Home />} />
+        <Route path="registration" element={<Registration />} />
+        <Route path="google-account" element={<Accounts />} />
+        <Route path="sign-in" element={<SignIn />} />
       </Routes>
     </BrowserRouter>
   );
